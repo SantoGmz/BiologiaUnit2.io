@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columnas */
+    min-height: 100vh; /* Asegura que el cuerpo ocupe al menos la altura de la ventana */
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0; /* Elimina márgenes por defecto */
+}
+
+#quizContainer {
+    flex: 1; /* Permite que el contenedor del cuestionario ocupe el espacio restante */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin: 20px auto; /* Centrar el contenedor en la página y agregar espacio superior/inferior */
+}
+
+/* Fondos para respuestas correctas e incorrectas */
+.correcto {
+    background-color: #d4edda; /* Color verde claro para respuestas correctas */
+}
+
+.incorrecto {
+    background-color: #ff0015; /* Color rojo claro para respuestas incorrectas */
+}
+
+button {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #f1f1f1; /* Color de fondo */
+    text-align: center; /* Centrar el texto */
+    padding: 10px 0; /* Espaciado superior e inferior */
+    width: 100%; /* Ocupa el ancho completo */
+    margin-top: 20px; /* Espaciado superior */
+}
