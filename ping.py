@@ -6,7 +6,7 @@
 # **************************************************************************************
 # **************************************************************************************
 # 
-#aprender smtp, usar timer, usar api de microtik, convinar con jango
+#aprender smtp, usar timer, usar api de microtik, convinar con jango, usar os, usar cmd para linux y windows
 
 
 
