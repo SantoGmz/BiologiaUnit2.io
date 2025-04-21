@@ -6,7 +6,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0; /* Elimina márgenes por defecto */
 }
-
+ 
 
 #quizContainer {
     flex: 1; /* Permite que el contenedor del cuestionario ocupe el espacio restante */
