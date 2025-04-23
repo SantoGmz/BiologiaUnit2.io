@@ -18,7 +18,7 @@
 
 import tkinter as tk
 import re #esta es para buscar expresiones regulares, buscar cosas simbolso especificos
-
+import subprocess
 
 
 
@@ -52,6 +52,14 @@ def obtener_texto():
         print(f"La IP {verificarIP(datos)} no es válida.")
 
 
+def hacer_ping(direccion_ip):
+    comando = ['ping', direccion_ip]
+
+    # Ejecutamos el comando
+    proceso = subprocess.run(comando, capture_output=True, text=True, check=True)
+
+    print(f"Resultado del ping a {direccion_ip}:")
+    print(proceso.stdout)
 
 
 ''' Tengo que hacer funciones para
