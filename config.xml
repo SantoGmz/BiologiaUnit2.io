@@ -1,0 +1,2275 @@
+
+<captiveportal>
+	<lan>
+		<zone>LAN</zone>
+		<descr><![CDATA[servicio de Internet ]]></descr>
+		<zoneid>2</zoneid>
+		<maxproc></maxproc>
+		<timeout></timeout>
+		<idletimeout></idletimeout>
+		<freelogins_count></freelogins_count>
+		<freelogins_resettimeout></freelogins_resettimeout>
+		<auth_method>none</auth_method>
+		<reauthenticateacct></reauthenticateacct>
+		<httpsname></httpsname>
+		<preauthurl></preauthurl>
+		<blockedmacsurl>https://cliquea.files.wordpress.com/2014/11/conexion.jpg</blockedmacsurl>
+		<certref>62a1b161d5740</certref>
+		<radius_protocol></radius_protocol>
+		<redirurl></redirurl>
+		<radiusip></radiusip>
+		<radiusip2></radiusip2>
+		<radiusip3></radiusip3>
+		<radiusip4></radiusip4>
+		<radiusport></radiusport>
+		<radiusport2></radiusport2>
+		<radiusport3></radiusport3>
+		<radiusport4></radiusport4>
+		<radiusacctport></radiusacctport>
+		<radiuskey></radiuskey>
+		<radiuskey2></radiuskey2>
+		<radiuskey3></radiuskey3>
+		<radiuskey4></radiuskey4>
+		<radiusvendor>default</radiusvendor>
+		<radiussrcip_attribute>wan</radiussrcip_attribute>
+		<radmac_format>default</radmac_format>
+		<radiusnasid></radiusnasid>
+		<page></page>
+		<interface>lan</interface>
+		<enable></enable>
+		<trafficquota></trafficquota>
+		<auth_server></auth_server>
+		<auth_server2></auth_server2>
+		<radacct_server></radacct_server>
+		<termsconditions></termsconditions>
+		<allowedhostname>
+			<hostname>Central-PC</hostname>
+			<sn></sn>
+			<dir>para </dir>
+			<descr><![CDATA[RAUTER DE PRUEBA]]></descr>
+			<bw_up>512</bw_up>
+			<bw_down>1524</bw_down>
+		</allowedhostname>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:12:33:d1:7f:b1</mac>
+			<bw_up>15120</bw_up>
+			<bw_down>8200</bw_down>
+			<descr><![CDATA[Camara giratoria que se encuentra en el centro de internet suriel con la ip172.16.21.44]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:13:10:96:43:d9</mac>
+			<bw_up>3072</bw_up>
+			<bw_down>3072</bw_down>
+			<descr><![CDATA[#550 Jhonathan Arturo Vinas Ventura Semillero 01 Calle 06 (alante de Arturo) casa 125 d&iacute;a 30 ins 08/03/25 ip 22.250 8299230148]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:5f:67:0e:8b:2b</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[Darling Eduardo Garcia Arias calle 14 semillero 2 edif(al lado de bianca yuderca, edif en construccion, color sapote) 1-1 ins 03/06/25 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:e0:4c:36:05:d8</mac>
+			<descr><![CDATA[Celular de santos ip22.100]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:03:01:67</mac>
+			<bw_up>5000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#372 Emelin Clase San Lorenzo 2 edif 78 1-1 ip22.14 dia 15]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:06:b1:81</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#408 Maria Antonia Capellan Calle 49 c55 Mella 1 8092920955 ins 3/07/23 ip22.63 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:49:9e:81</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[(LEONELDY)Yoel Alvarado calle 1 esquina 12 segundo nivel al lado de la iglesia cienfuegos]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:91:e0:4f</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>6000</bw_down>
+			<descr><![CDATA[#116 Fanny Caraballo Calle 8 Edif. 16 Apto 2-2 Monte Bonito Cienfuegos, 8093092918 (ws)8623060784 (dia 30) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:91:e0:f5</mac>
+			<bw_up>5000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#545 Johanna del Carmen Sosa Fondo&nbsp;de&nbsp;Botella Calle 12 Casa 10 Peaton 01 18498894177 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>00:eb:d8:c4:05:11</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[#489 Francinis Santos Satelite Calle 04 Manzana 22 1-1 (entrando por donde Quivio)Ip22.179 8297038064 ins 18/06/24 dia 30 ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>00:eb:d8:c6:7a:75</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#318 Yeison Reynoso Almonte calle 3 edif 17 apart 2-1 monte bonito ip134  (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:c6:7a:85</mac>
+			<bw_up>3500</bw_up>
+			<bw_down>3500</bw_down>
+			<descr><![CDATA[#552 Ana Carela Serv2 CJC Monte Bonito Calle 05 Cafeteria del cjc  ins03/03/25 8297234031 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:c6:7a:8f</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[#567 Chaveli Espinal Minaya Monte Bonito Edif 06 Apto 2-3 8299736063 ins 03/05/25 dia 30 pagara 1000]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:c6:7a:95</mac>
+			<bw_up>10500</bw_up>
+			<bw_down>10500</bw_down>
+			<descr><![CDATA[#496 Victor Jose Colon Alto Bonito Calle 08 Esq 05 829877195 ins 20/07/24 dia 30 ip22.187]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:c6:7a:bb</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#338 (Haitiano) Jose Abelo calle 2 c49 (En el Callejon donde Rossanna) San Lorenzo 2 8299451817 ins 23/12/22 ip31.229 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:c6:7a:bf</mac>
+			<bw_up>6000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#554 Yunilda Altagracia Collado Tejada Calle 29 Casa 14 d&iacute;a 15 ins 14/03/25 8292817901 ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:c6:7a:f7</mac>
+			<bw_up>10100</bw_up>
+			<bw_down>10100</bw_down>
+			<descr><![CDATA[#46 Mickey Durden Calle 4 San Lorenzo, No. 54 ip22.157 829915188 (dia 20]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:c6:7b:0f</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#280 Mariel Aquino (Madre) Calle 35, con 8 encima de Banca Beco, San Antonio, 8497011721 Inst. 10/12/21  (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:c6:7b:15</mac>
+			<bw_up>3000</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#502 Veronica Jimenez Satelite Manzana 11 Edif 06 Apto 1-4  8098529361 ins 14/09/24]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:c6:7b:91</mac>
+			<bw_up>5400</bw_up>
+			<bw_down>8500</bw_down>
+			<descr><![CDATA[#17 Adriana Castano Edif. 6 Apto 1-2 8297096541 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:c6:7b:af</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8200</bw_down>
+			<descr><![CDATA[#551 Jose Arturo Vinas Calle 06 Semillero 01 Casa 109 8299930148 dia 15 ins 08/03/25]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:c6:7b:bd</mac>
+			<bw_up>10500</bw_up>
+			<bw_down>10500</bw_down>
+			<descr><![CDATA[#555 Anaury Cristina Vilorio Ramirez La Pina Calle 44 frente al respuesto jonathan de la Pina dia 15 ins 13/03/25 8297664955]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:c6:7b:c7</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#386 Gysel Altagracia Grullon Calle 12 Casa 12 Fondo de la Botella 8099775964 ip22.37 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:c6:7b:e1</mac>
+			<bw_up>5000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#494 Katherine De Jesus Calle 2 Valle Bonito Edif 16 Apto c4 82498023316 dia 30 ins 13/07/24 ip22.184]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:c6:7b:e9</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#542 Yasmin Clime Pena Monte Bonito Edif 06 Apto 4-1 8296012236 dia 15]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:cf:93:57</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[(Leoneldy) Ambiorix Taveras colmado Calle 3 con 12 Cienfuegos in22.143 8297077774 ins 24/02/24 dia 3]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>00:eb:d8:f0:6d:61</mac>
+			<bw_up>5000</bw_up>
+			<bw_down>5000</bw_down>
+			<descr><![CDATA[#509 Adriana Emma Balaguer ins 14/10/24 ip22.207]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>04:95:e6:0a:cf:10</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#381 Yenny Altagracia De La Nuez (Salon) Calle entre calle 18 y 30 caballeros fondo de la botella local 1-1 ins 19/04/23 8092934405 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>04:95:e6:19:a9:60</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#501 Diana Carolina Villalona  Monte Bonito Edif 21 Apto 3-2 18092924064 dia 30 ins 05/09/24 ip21.197]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>04:95:e6:25:d7:40</mac>
+			<bw_up>10500</bw_up>
+			<bw_down>10500</bw_down>
+			<descr><![CDATA[#200 Nicol Espinal Henr&iacute;quez (Hermana de Chuky) Calle 12, NO.27 Monte Bonito 8294960765 ip21.48 Inst 21/02/22 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>04:95:e6:78:a7:d0</mac>
+			<bw_up>4000</bw_up>
+			<bw_down>5000</bw_down>
+			<descr><![CDATA[#72 Danilo Sosa (Wanda) Calle 4 No. 22 San Lorenzo 2do Nivel, 8296783854 ip195 (dia 30) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>0c:80:63:0e:3d:8b</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#213 Juana Anyeris Puntiel Semillero 2, Calle 6, No. 10, 8099751418 ip21.68 Inst. 16/03/2022 (dia 20)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>0c:80:63:0e:51:71</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#207 Yuleisi Mata De Jimenez Calle 1, c20 8096625892 Inst 5/03/2022 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>0c:80:63:0e:61:99</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#476 Manuela Maria Reynoso Ozoria San Lorenzo 2 Calle 5 frente a colm Yolanda 2do nivel Apto amarillo dia 30 ip22.155 ins 26/03/24 8299881587]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>0c:80:63:0e:62:c9</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#405 Nurys Jimenez Arnol (Calle Emma Balaguer) edif 21 apart 2-4 monte bonito dia 30 8297487520 ins 21/06/23 ip22.59]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>0c:80:63:0e:66:d1</mac>
+			<bw_up>10500</bw_up>
+			<bw_down>10500</bw_down>
+			<descr><![CDATA[#548 Ramilito Rodriguez Mena San Antonio Calle 35 8098690467(colmado en la esquina donde vive Wascar y Radeimi) dia 15 ins 15/02/25 pagara 1350 el router es de el ip22.246]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>0c:80:63:77:83:f3</mac>
+			<bw_up>10200</bw_up>
+			<bw_down>10200</bw_down>
+			<descr><![CDATA[#537 Maria Magdalena Martines Abre Satelite Manzana 16 Edif 1 Apto 1 Pago. 10 mb. 1500 Va A Pagar La Instalacion El 20/01/2025 Dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>0c:80:63:e9:25:8d</mac>
+			<bw_up>5000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#366 Ligia Elena Melo Guerrero Calle 2 Valle Bonito Edif 7 2,1 8094779848  ins 4/03/23 ip23.5 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>0c:80:63:e9:2d:97</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#106 Amartina de Jes&uacute;s Urena Calle 16, Edif. 36, Apto 2-4, Monte Bonito 8297010065 ip 203 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>0c:80:63:e9:9f:69</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#348 Francisca Vicente Pinales casa 07 calle 1ra San Lorenzo 2 dia 15 ip20.135 8297032045 ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>10:7d:1a:2f:1f:46</mac>
+			<bw_up>10500</bw_up>
+			<bw_down>10500</bw_down>
+			<descr><![CDATA[Madelin Luciano]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>14:91:82:f3:fa:eb</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#114 Juliana Pena Calle 5, No. 38, ensanche San Lorenzo 2, 8498040173 ip213 (dia 30) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:1e:16:e7</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#397 Celeste Tejada San Lorenzo 2 Calle 7 Casa 5 8298040651 ip22.49 ins 27/05/23 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:1e:18:7b</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#480 Clarissa Pina Nunez San Antonio Calle 27, No 05 dia 15 ins 19/03/24 ip22.55]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:1e:18:c3</mac>
+			<bw_up>5000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#398 David Rogriguez San Lorenzo 2 Calle 5 Apto 3-1 (Edif Yasmin) 8296248258 15 ins 27/05/33 ip22.50]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:1e:1e:f1</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>7000</bw_down>
+			<descr><![CDATA[#425 Fernanda Aquino Baez Mella 1 Edif 1 Apto 2-3 entre calle 27 y 61 (segun edenorte) 8499178214 ip21.86 dia 15 ins 20/09/23 ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:1e:20:d7</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#523 Sandra Ayala Semillero 2 Calle 06 Casa 70 ins 23/11/24 ip22.218]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:1e:23:9f</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#411 Veronica Isabel Cruz Semillero 2 Calle 9 c35 colegio Ridea  8296101519  ins 18/07/23 ip22.68 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:1e:24:09</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#384 Raydiris Cabrera Martinez Monte Bonito Edif 13 Apto 3-1 8092838135 ins 22/04/23 ip22.28 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:1e:24:3d</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#95 Ramon Mora Calle 04, No. 33 8295481361 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:1e:24:65</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#229 Albanelis Rodriguez Valle bonito, Calle 1, No. 32, (parque) 8293386255 Inst. 7/03/22 ip21.59 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:1e:29:09</mac>
+			<bw_up>8100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#166 Mireya Francisca Alto Bonito, Calle 8, No. 154, 8296609141 ip182 Inst. 27/11/21 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:1e:2a:2b</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>6500</bw_down>
+			<descr><![CDATA[#361 Eridania Silverio Moronta calle 2 manzana 11 edif 4 apart 1-2 (Satelite Corriente) 8295180075  ip20.99 ins 18/02/23 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:1e:2a:81</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[(SA)Pedro Ezequiel Lopez Peralta calle 6 con 14 semillero (edenorte dice edif  3) 2 apart 2-1 8296907820 dia 30 ins 27/04/24 ip22.165 pagara 1100]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:1e:2c:1b</mac>
+			<bw_up>6000</bw_up>
+			<bw_down>7500</bw_down>
+			<descr><![CDATA[#562 Ricardo Martinez Martinez Calle 35 Casa 32 ins 07/04/25 8496202665 ip21.47 dia 30 pagara 800 y debe 800 de instalacion que la pagara el proximo mes]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:1e:2f:01</mac>
+			<bw_up>5000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#471 Albairis Rodriguez Calle 01 Casa 32 Valle Bonito ins 5/03/24 (Al lado de Albanelis) 8493770387 ip22.148]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:1e:34:6d</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#481 Luis David Morla Serv2 calle 2 valle bonito edif 30 apart 1-1 (La baarberia) 8294481205 pagara 800 el proximo 30 de 30/04/24 dia 30 ins 15/04/24 ip22.162]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:1e:34:8b</mac>
+			<bw_up>8100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#390 Wanda Maciel Marte Calle 12 Casa 9 (Al lado de rosaslinda) ip22.41 ins 9/05/23 8293914771  1150 (dia 30) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>1c:3b:f3:3d:ca:6d</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#430 Rodolfo Gonzales San Lorenzo 2 Calle 39 Casa 6 (En la calle que vive Hensly martinez casa que queda al final de la calle la ultima) 8293706786 dia 30 ins 28/10/23 ip22.94]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>28:ee:52:b4:d3:07</mac>
+			<bw_up>5350</bw_up>
+			<bw_down>5200</bw_down>
+			<descr><![CDATA[#212 Jean Marco Ruth Peralta El Semillero 2, Calle 6, No. 55, ip21.66 8095060276  Inst. 14/03/22 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:ca:29</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#498 Esperanza de la Cruz San Lorenzo 2 Esq 04 (al lado de la tienda la casa verde que est&aacute; atras del solar) Casa 29 2do nivel dia 15 ins 14/08/24 8496514270 ip22.190]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:ca:2f</mac>
+			<bw_up>100000</bw_up>
+			<bw_down>100000</bw_down>
+			<descr><![CDATA[leoneldy emergencia]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d2:f1</mac>
+			<bw_up>6000</bw_up>
+			<bw_down>6000</bw_down>
+			<descr><![CDATA[#536 Malvin Aneudis Ferreira Gil Satelite Manzana 11 Edif 08 Apto 2 8297316633 Plan 5 mb 1000 Dia 15 ins 11/01/25 ip22.231]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d3:31</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>7000</bw_down>
+			<descr><![CDATA[#221 Luisa Andreina Cabrera Ventura ip165 Monte Bonito Edif 11 Apto 4-3 8095104445 Inst 2/04/2022 (dia 5)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d3:47</mac>
+			<bw_up>10500</bw_up>
+			<bw_down>10500</bw_down>
+			<descr><![CDATA[#549 Starling Rodriguez  Barrio Alegria Calle 59 Casa ( el no sabe pero es azul con blanco y tiene una marquesina) dia 30 ins 07/03/25 ip22.249 8295228895]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d3:55</mac>
+			<bw_up>11500</bw_up>
+			<bw_down>11500</bw_down>
+			<descr><![CDATA[#556 Jorge Luis Contreras Ensanche Almarosa 1 Seco 1 Calle 09 Casa 02 dia 30 ins 11/03/25 8093183619]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d3:8f</mac>
+			<bw_up>12000</bw_up>
+			<bw_down>12000</bw_down>
+			<descr><![CDATA[#156 Hensly Martinez Calle 39 c52 8494571212  ins 17/11/2021 ip55 (dia 20)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d3:97</mac>
+			<bw_up>10000</bw_up>
+			<bw_down>10000</bw_down>
+			<descr><![CDATA[Centro de Internet]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d3:cf</mac>
+			<bw_up>5000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#303 Mariela Zapata Calle 4 c31 San Lorenzo 2 8296926092 ip21.182 ins 4/10/22 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d4:03</mac>
+			<bw_up>6000</bw_up>
+			<bw_down>6000</bw_down>
+			<descr><![CDATA[new #60 Yahaira Mej&iacute;a Edif 13 Apto 2-4 Monte Bonito 8299182999 ip231 (dia 20) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d4:33</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#510 Angela Genao Fondo de Botella Calle 15 Casa 13 ins 09/10/24 dia 30 ip22.205]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d4:67</mac>
+			<bw_up>5120</bw_up>
+			<bw_down>5120</bw_down>
+			<descr><![CDATA[(LEONELDY) Dilenny Lisbeth]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d4:71</mac>
+			<bw_up>5000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#530 Jessi Diaz Calle 01 Valle Bonito Casa 08 (frente a Albairis) 8498829766 ins 02/12/24 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>30:16:9d:0d:d4:73</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#532 Jorge Miguel Sanchez Semillero 2 Calle 15 3-3 (subiendo la 5 cerca del colmadon por el colmadon) dia 30 8097146345 ins 28/12/24 ip22.227]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d4:91</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#493 Ana Felicia Hernandez Monte Bonito Edif 16 Apto 4-2 dia 30 ins 01/07/24 8293997659 22.183]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d4:97</mac>
+			<bw_up>3200</bw_up>
+			<bw_down>3200</bw_down>
+			<descr><![CDATA[#510 Orquidea De La Cruz Martinez Semillero 2 Calle 06 Casa 76 2-1(encima de Manuel sadan) 8494370404 dia 15 ins 10/10/24]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d4:a9</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#160 Johanna Jim&eacute;nez, Calle, 35 c19 San Antonio 8295803999  ip53 ins 19/11/21 (dia 20)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d4:cd</mac>
+			<bw_up>6000</bw_up>
+			<bw_down>6000</bw_down>
+			<descr><![CDATA[#557 Jeffry Manuel Martinez Mella 1, Calle Neno, Edif 04 Apto 1-6 el Ultimo dia 30 ints 26/02/2025ip 22.247]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d5:23</mac>
+			<bw_up>3000</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#499 Margarita Luna Monte Bonito Edif 11 Apto 4-4 encima de la junta dia 15 Ins 14/08/24 ip22.191 8098043731]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d5:c1</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[Cliente leoneldy]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d5:cd</mac>
+			<bw_up>5000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#506 Ernesto Rodriguez San Lorenzo 2 Calle 02 Edif Apto 02 (al lado de la iglesia)  8294596555 dia 30 ins 24/09/24]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>30:16:9d:0d:d5:d5</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#517 Crisaidy Guerrero Valle Bonito Calle 02 Edif 32 Puerta 07 8295091840 ins 04/11/24 8295091840 ins 04/11/24 dia 15 ip22.212]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d6:3d</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#491 Eddy Manuel Montero de Leon Valle Bonito Calle 02 Edif 16 Apto 10 (2do nivel) 8492053852 ins 29/06/24 dia 15 ip21.181]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d6:41</mac>
+			<bw_up>10500</bw_up>
+			<bw_down>10500</bw_down>
+			<descr><![CDATA[#547 Michael De Lo Santo Hernandez calle Valle bonito (justamente al lado de jennifer en el apartamento mamei, el dice que no tiene nombre) dia 30 ip22.2244 ins 12/02/2025]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d6:53</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#495 Adonis Rodriguez El Ollo Calle 31 Casa 106 Iglesia  dia 30 ins 16/07/24 8097907561 (serv puede ser a nombre de Wascar) ip22.186]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d6:61</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#10 Mirian Cabrera Edif 7, 1-4, (dia 10)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d6:69</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#497 Elvin Ozoria Monte Bonito Edif 36 Apto 2-2 8094858772 ins 25/07/24 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d6:73</mac>
+			<bw_up>8500</bw_up>
+			<bw_down>8500</bw_down>
+			<descr><![CDATA[#162 Francia Hernandez Garcia Edif 22 2-2 monte bonito ip54 ins 20/12/2021 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d6:75</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>10000</bw_down>
+			<descr><![CDATA[#539 Fiordaliza Quiroz Monte Bonito Calle 16 Edif 11 Apto 2-3 ins 11/01/25 dia 15 8099686707 ip22.234]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d6:91</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#541 Danibel Nunez Valdez Fondo de Botella Calle 13 Casa No Sabe, es en la calle donde vive Britany sosa, justamente al lado en la casa de color azul con blanco y hirrros negros) ins 15/01/25 dia 15 8296915541 ip22.237]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d6:97</mac>
+			<bw_up>4000</bw_up>
+			<bw_down>4000</bw_down>
+			<descr><![CDATA[#544 Will Antonio Urena Sanchez Edif 07 Apto 2-2 8098683062 pagara 500 dice leoneldy ins 31/01/24 dia 30 ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d7:21</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#559 Jose Daniel Infante Rodriguez San Antonio Calle 2 Edif Apto 9c mamei donde vive Sindy Burgos d&iacute;a 15 829 455 8928 ip20.85 ins 24/03/25 pagara 1,000]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d7:2b</mac>
+			<bw_up>7300</bw_up>
+			<bw_down>7300</bw_down>
+			<descr><![CDATA[#563 Lismayri Hernandez Fondo de Botella Calle 15 casa justamente frente al caritas(ella no sabe nada mas de su ubicacion pero esto es un Apto que tiene como parque o frente a caritas fondo de botella) 8297686927 ins 11/04/24 dia 30 ip22.193]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d7:33</mac>
+			<bw_up>11000</bw_up>
+			<bw_down>11000</bw_down>
+			<descr><![CDATA[#564 Esmerlin Contrera (hablar con el para datos) 8092932536 ins 20/03/25]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d7:a5</mac>
+			<bw_up>6500</bw_up>
+			<bw_down>6500</bw_down>
+			<descr><![CDATA[#466 Pedro Pichardo Satelite Manzana 15 Edif 2 Apto 2-2 ins 20/02/24 8092528485 satelite dia 30 ip22.129]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d7:bd</mac>
+			<bw_up>3071</bw_up>
+			<bw_down>3071</bw_down>
+			<descr><![CDATA[LEO Damari Rodriguez Cienfuegos Calle 01 Casa 73 Parte Atras (mama de mujer Aneury)dia 30 8292634347 ins 09/11/24]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d7:cd</mac>
+			<bw_up>6000</bw_up>
+			<bw_down>6000</bw_down>
+			<descr><![CDATA[#553 Olga Maria Payams Rodriguez Barrio Alegria Calle 55 Casa (no se sabe) por el play 8293102981 dia 30 ins 15/03/25 20.132]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d7:d3</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>11000</bw_down>
+			<descr><![CDATA[#535 Rosmely Mercado San Antonio Calle 29 Casa 61 dia 30 ins 04/01/24 8099019755 ip22.228]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d7:e9</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#534 Darleny Yohanna Vasquez Fondo de Botella Calle 15 2do Nivel frente a la fotografa yokaty (ella no sabe el numero de edif ni apto 8297907524 dia 30) ins 05/01/25 ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d8:2b</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#513 Michael Olivo Camilo Cruz San Antonio Calle 31 Casa 36 (frente a Edinson De Leon cabrera) ins 16/10/24 ip 22.208  8622153684 dia 15]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d8:df</mac>
+			<bw_up>5000</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#422 Josefa Polano Calle 1 (arriba del colmado catalina ella no se sabe el numero) casa azul segundo nivel (La mam&aacute; de Albania) ins 4/09/23 ip22.82  8299136156 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d8:f5</mac>
+			<bw_up>10500</bw_up>
+			<bw_down>10500</bw_down>
+			<descr><![CDATA[#450 Anderson Jackson (MIllonario) San Lorenzo 2 Calle 8 con 4 8099076165 (Encima del colmado apart 11 ultimo piso, No hay muchos detalles acerca de esa ubicacion) dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d9:03</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#528 Estarlin Rodriguez Serv2 San Lorenzo Calle 04 Casa 31 (entrar por el callejon que esta al lado de Mariela Zapata y frente al colmado 8297680123 dia 15 ip22.222 ins 02/12/24]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d9:0d</mac>
+			<bw_up>7300</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#546 Victor Pizarro Calle 25 Esq 27 Valle Bonito Casa 48 dia 30 ins 03/01/25 ip22.243]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d9:23</mac>
+			<bw_up>15000</bw_up>
+			<bw_down>15000</bw_down>
+			<descr><![CDATA[#543 Orquidea Martinez Semillero 01 Calle 07 Casa 08 parte atr&aacute;s Cienfuegos 8299056214 dia 15 ins 24/01/25]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>30:16:9d:0d:d9:8b</mac>
+			<bw_up>4022</bw_up>
+			<bw_down>4022</bw_down>
+			<descr><![CDATA[#514 Aurelio Acevedo Calle 14 Esq 05 Apto 132 2-03(el no esta seguro, encima del repuesto de la calle 5 por el 20 y10 cuando subes al 2do nivel la 1ra puerta que vez, exactamente debajo de la escalera el cable de internet entra por la ventana que esta serca de la escalera es en el 2do nivel) dia 15 ins 17/10/24 8096052053 ip22.209]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>34:e8:94:87:d1:85</mac>
+			<bw_up>3072</bw_up>
+			<bw_down>3072</bw_down>
+			<descr><![CDATA[(SA)Manaury Riveron Pena Mella 1 calle 37 edif 37 2-6 dia 30 ins 30/04/24 ip22.164 8295856885]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>38:6b:1c:0a:5b:23</mac>
+			<bw_up>3100</bw_up>
+			<bw_down>6000</bw_down>
+			<descr><![CDATA[#34 Otoniel Cordero Calle 5 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>38:6b:1c:13:a8:01</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#511 Albania Polanco Servicio 2 Calle 01 Esq 7 local 11 (En el salon 8099836148 ip22.169 ins 04/05/24 dia 15 ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>38:6b:1c:27:d9:ab</mac>
+			<bw_up>8300</bw_up>
+			<bw_down>8300</bw_down>
+			<descr><![CDATA[#39 Geronimo Reynoso Edif. 11 Apto 1 809-4475118 (dia 30) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>38:6b:1c:3e:2a:b3</mac>
+			<bw_up>5000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#302 Cristian Ramon Jorge Calle 33 Casa 20 el Ollo 8098617917  ip21.181 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>38:6b:1c:46:b4:79</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#470 Rosanna Urena Marte San Lorenzo Calle 1 Casa 26 8097023946 ip22.22 dia 15 ins 09/01/24]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>38:6b:1c:4b:65:95</mac>
+			<bw_up>10500</bw_up>
+			<bw_down>10500</bw_down>
+			<descr><![CDATA[#504 Wandoli Ramos Mella 1 Calle 37 8294394840]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>38:6b:1c:4e:b0:11</mac>
+			<bw_up>5200</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#56 Estarlin Rodriguez Calle 4, No. 17 8297680123 ip141 (dia 30) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>38:6b:1c:78:a8:09</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#529 Estefany Duran Calle 27 ( es un Apto blanco con naranja ella no sabe el n&uacute;mero es en el 2do nivel la primer puerta) 8099976585 dia 15 ip22.227 ins 17/12/24]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>38:6b:1c:78:ab:81</mac>
+			<bw_up>3000</bw_up>
+			<bw_down>4000</bw_down>
+			<descr><![CDATA[#20 Radeimi Rodriguez Cerca de wasca, No. 16 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>38:6b:1c:81:58:fd</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#76 Miguelina Brito Disla Edif. 16 1-1 8092954482 ip168 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>38:6b:1c:82:51:3f</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#525 Carmen Reyes Satelite Edif 1 Manzana 16 Apto 2-4 ins 20/11/24 8493161903]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>38:6b:1c:9d:4e:b1</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#6 Clari Raquel Brito, Edif. No. 12, Apto. 3-2, (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>38:6b:1c:aa:41:e5</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#331 Alexander Zapata calle 31 c28 san Antonio ins 3/12/22 8498847376 ip21.221 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>38:6b:1c:ad:75:77</mac>
+			<bw_up>7000</bw_up>
+			<bw_down>5250</bw_down>
+			<descr><![CDATA[#317 Crismandy Talia Baez calle 2 monte bonito Frente a supermercado Winston edif105 apart 5 8492751038 ip21.206 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>38:6b:1c:cd:e2:5f</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#168 Carlos Rodriguez Alto Bonito, Calle 8, No. 21 ip84 8096531156 Inst. 27/11/21 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>38:6b:1c:cf:8a:1f</mac>
+			<bw_up>3100</bw_up>
+			<bw_down>5000</bw_down>
+			<descr><![CDATA[#83 Carlixta Calle 37 barrio San Antonio casa 31 8098676490  (dia 15) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>38:6b:1c:d2:56:69</mac>
+			<bw_up>5120</bw_up>
+			<bw_down>5120</bw_down>
+			<descr><![CDATA[#25 Hilya Altagracia Luna Brito Edif 36 Apto 4-4 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>38:6b:1c:d2:7f:39</mac>
+			<bw_up>5110</bw_up>
+			<bw_down>5110</bw_down>
+			<descr><![CDATA[(SAN)Carolan cruz vasquez calle 37 edif 37 2-1 ins 28/04/25 dia 30 pagara 1000 8294532515]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:b8:b3</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#449 Dabeyba Maria Ozoria Gonzalez Semillero 2 Calle 8 con 13 (Al lado de donde era el colmado azul con amarillo o mostaza) dia 30 8098644361 ins 16/01/24 22.120]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:b8:f1</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#337 Carlos Juan Garcia Garcia calle 30 caballeros c13 (Frente a metalera luis) ip21.227 8299897299 dia 15]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:ba:c7</mac>
+			<bw_up>5000</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#434 Yunior Brito San Lorenzo 2 Calle 5 Edif (no se sabe) Apto 2-1 (Apto de color verde al lado del colmado Yolanda) ip22.98 ins 08/11/22 8294639134 dia 15]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:ba:c9</mac>
+			<bw_up>3072</bw_up>
+			<bw_down>3072</bw_down>
+			<descr><![CDATA[#443 Herode Marcellus Monte Bonito Calle 3 Casa 106 dia 30 8496287156 ip22.11]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:ba:d9</mac>
+			<bw_up>4048</bw_up>
+			<bw_down>4048</bw_down>
+			<descr><![CDATA[#445 Pierre Lerisson Monte bonito calle 3 casa 96 ins 23/12/23 8298904939 ip22.10]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:ba:e7</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>6500</bw_down>
+			<descr><![CDATA[#421 Bianca Yuderca Alfonzo Nu&ntilde;ez Semillero 2 Calle 14  Casa 20 parte atras segundo nivel 8292857777  ins 5/08/23 ip22.79 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:be:05</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#456 Jose Contrera Contrera San Lorenzo 2 Calle 01 Casa (pension 3-2 num 11 Encima de Francisca) (Por fuera es azul/verde)8094776778 ins 30/01/24 dia 15 ip22.127]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:be:5f</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#457 Brida mercedes Pena Gutierrez Monte Bonito Edif 01 Apto 1-1 (Frente a Isaac detras de la banca) ins 30/01/24 dia 30 8297817586 ip22.128]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:be:75</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#561 Marielis Gonzales Satelite Manzana 13 Edif 03 Apto 1-1 dia 30 ins 05/04/258094964907 pagara 800 y debe 300 de ins]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:c4:87</mac>
+			<bw_up>11000</bw_up>
+			<bw_down>11000</bw_down>
+			<descr><![CDATA[#459 Romulo Morrobel Santana San Antonio Calle 33 Esq 25 local 26 Colmado mi Dios (Esta detras del parque tambien se llega facil subiendo por la calle 5 la 1ra calle a la izquierda) ins 02/02/24 ip22.130 dia 30 8498546253]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:c4:e5</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>10500</bw_down>
+			<descr><![CDATA[#279 Christian Espinal Polanco Calle 16 Edif 39 Apto 4-1 21.144 ins 22/08/22 8294438222 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:c5:4d</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#347 Luis Angel Vargas Brito Calle 1ra san lorenzo 2 casa 8 dia 15 8292322123 ins 10/01/23 ip20.136]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:c5:5b</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5200</bw_down>
+			<descr><![CDATA[#108 Pascual Puntier El Semillero 2, Calle 6, No. 58 Apto 1-1, 8299217033 (ip105) (dia 30) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>3c:52:a1:2c:c5:69</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[#439 Juliana Diaz Semillero 2 Calle 10 Casa 13 ins 12/12/23 ip22.104 8299382934 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:c5:6f</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#448 Hensly Suegra ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:c5:71</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[(SA)Alberto Almonte Cruz Monte Bonito Edif 11 Apto 4-2 (justamente al lado del centro de internet) 8297794596 dia 30 ip22.171 ins 017/05/24]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:c5:83</mac>
+			<bw_up>5000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#334 Maria Adame Silverio San Lorenzo 2 Calle 5 2do Nivel casa (no se sabe) 8299418182 dia 30 ins 27/12/23 ip22.114]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:2c:c5:9b</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5200</bw_down>
+			<descr><![CDATA[#540 Pablo Jose Reyes Ulloa Calle 03 Esq 12 Apto de la Esq ins 13/01/25 8099391696 ip22.235 dia 15]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:3f:1f:8f</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#461 Onelda Teodora Gomez San Lorenzo 2 Calle 30 Caballero Esq 13 Casa 10 (Cafeteria frente a la farmacia en la esq) dia 30  ins 06/03/24 8295849650]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:52:a1:3f:23:59</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#460 Carlos Torres San Antonio Calle 27 Casa 06 (casi al final, Crema con verde y tiene un tinaco arriba) Ip22.131 ins 03/02/24 8498687806 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>3c:84:6a:36:84:df</mac>
+			<bw_up>6500</bw_up>
+			<bw_down>7000</bw_down>
+			<descr><![CDATA[#362 Quilvio Perez Garcia Satelite Manz. 11 Apto 1-4 8292996832 ins 22/02/23 ip21.123 dia 15]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>40:3f:8c:8c:03:39</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#478 Nereida Rodriguez San Lorenzo 2 Calle 05 Al lado Colmado Yolanda 22.154 ins 26/03/24 dia 15 8498854415]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>40:3f:8c:8c:0d:87</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#125 Marielis Bonifacio, Calle 5, No. 25 San Lorenzo 2 , 8296966882 (dia 10) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>40:3f:8c:8c:10:3f</mac>
+			<bw_up>4000</bw_up>
+			<bw_down>4500</bw_down>
+			<descr><![CDATA[#44 Rosa Mar&iacute;a Mercado Calle 4 Casa 36, 829-6485145 ip186 (dia 30) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>40:3f:8c:ce:4c:51</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#167 Jose Tejada calle 8 Alto Bonito c37 8295334391 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>40:3f:8c:ce:4c:e9</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#157 Stefania Toribio Calle 4 Cienfuegos c100 8094042671 ins 18/11/21 ip16 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>40:3f:8c:ce:50:f9</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#121 Katherine Marcelo Silverio Calle 13, cienfuegos fondo de la botella 2do Nivel NO desc (al lado de la casa 17 en Apto) ip226 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>40:3f:8c:ce:52:ad</mac>
+			<bw_up>10500</bw_up>
+			<bw_down>10500</bw_down>
+			<descr><![CDATA[Prueba Cam Radi]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>40:3f:8c:ce:52:c5</mac>
+			<bw_up>5300</bw_up>
+			<bw_down>5300</bw_down>
+			<descr><![CDATA[#122 Noel Hern&aacute;ndez Edif. 13 Apto 1-1  , 829-453-5156 IP 225 (dia 30) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>40:3f:8c:ce:53:c7</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[(SA)Soleivys Angelina Torres Arias 28/05/24 dia 30 monte bonito 2-3 edif 16]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>40:3f:8c:ce:53:d5</mac>
+			<bw_up>5300</bw_up>
+			<bw_down>5300</bw_down>
+			<descr><![CDATA[#271 Ana Isabel Cabrera Calle 4, No.180, 1er Nivel, Monte Bonito (Frente a alondra gonzales) 8497016701 Inst. 06/08/22 ip21.1(dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>40:3f:8c:ce:5e:95</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#380 Carlos Luis Moral Valle Bonito Calle 2 (entrar por la Melma vape) (Apto al final de la calle 1-3 debajo de Juan jose cepeda) inst 19/04/23 ip22.33 8293850843 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>40:3f:8c:ce:65:5b</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#484 Rey Guzman Semillero 2 Calle 7 Casa 67 (Vive en el callej&oacute;n la casa de 2do Nivel erca de la familia de clara) dia 30 ins 27/04/24 8297306557 ip22.168]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>40:3f:8c:ce:6a:0d</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[eladio farmacia 19/08/2023]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>40:6a:8e:c1:ed:05</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[camara negra inqmegapro 4k multi zoom que esta fuera del centro camara exterior ip 22.152 14/03/24]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>40:ae:30:e7:a1:4b</mac>
+			<bw_up>10500</bw_up>
+			<bw_down>10500</bw_down>
+			<descr><![CDATA[Linfi 2]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>40:ae:30:e7:ba:d7</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>7000</bw_down>
+			<descr><![CDATA[#570 Carlos Nunez Gonzales ultimo San Lorenzo 2 Calle 02 local( no sabe) en la muebleria, casi al final ins 15/05/25 dia 15 ip22.195]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>40:ae:30:e7:bb:09</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#569 Jose Alberto Duran San Lorenzo 2 Calle 5 Casa (llegando al final, al lado de la herreria) ins 17/05/25 dia 15 ip22.166]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>50:0f:f5:7a:a2:98</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#435 Madelin Cabrera Pena Alto Bonito Calle 14 (Cerca de Bianca Yuderka casa color naranja un solo nivel con hierros al lado hay una marquesina) dia 30 ip22.97 ins 08/11/23 pagara 800 8097741062]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>50:91:e3:58:03:37</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#436 Carmen Luisa Veloz Gonzales Monte bonito Edif 17 Apto 4-3 ins 7/12/23 ip22.103 8099654073 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>50:91:e3:58:03:6d</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[#437 Jady Minerva Barriento Semillero 2 Calle 10 Apto verde Al lado de Francisco Camilo 2-2 8096191825 dia 30 ins 5/12/23 ip22.102]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>5c:92:5e:5e:23:a5</mac>
+			<bw_up>8200</bw_up>
+			<bw_down>8200</bw_down>
+			<descr><![CDATA[#482 Paola Margarita Espinal Monte Bonito Edif 21 Apto 1-2 dia 30 809715124 ins 01/04/24]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>5c:92:5e:5e:41:69</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#285 Yanirys Est&eacute;vez San Antonio, Calle 39, Esq. 23, 8096288352 Inst. 01/09/22 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>5c:92:5e:5e:56:61</mac>
+			<bw_up>4000</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[#43 Karla frente a feliciano calle 5 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>5c:92:5e:5f:31:25</mac>
+			<bw_up>5300</bw_up>
+			<bw_down>5300</bw_down>
+			<descr><![CDATA[#19 Wascar Garcia Palma Calle 35 por la banca Beco, (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>5c:e9:31:fe:cb:e3</mac>
+			<bw_up>8192</bw_up>
+			<bw_down>8192</bw_down>
+			<descr><![CDATA[#274 Yohana Valentina Reyes Rodrigues Calle 6, con 14, Semillero 2 (Cerca de damian en el Edif.)1-2 ip21.139 8099382150 Inst. 11/08/22 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>5c:e9:31:fe:cb:e7</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#467 Nayrobi Aybar Monte Bonito Calle 04 Casa 114 ip22.144 8296770102 ins 28/02/24 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>5c:e9:31:fe:cd:8b</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#469 Maria Gomez Semillero 2 Calle 13 Casa 30 ins 02/03/24 8098657764 dia 30 ip22.146]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>5c:e9:31:ff:04:9b</mac>
+			<bw_up>8100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#463 Viscatia Peralta Fondo de Botella Atr&aacute;s de la San Francisco de As&iacute;s peat&oacute;n 1e 12 No. 16 dia 30 8094963200 ins 19/02/24 22.136 vivia) Fray luis Santos]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>5c:e9:31:ff:06:71</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#42 Isaury Rosario Edif. 7 Apto 3-2 829-8603203 (dia 30) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>5c:e9:31:ff:0a:63</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[#360 Wendy Jean Calle 3 casa 98 monte bonito 8295256549 ip20.90 ins 13/02/23 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>5c:e9:31:ff:0a:73</mac>
+			<bw_up>3072</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#422 Josefa Polano Calle 1 (arriba del colmado catalina ella no se sabe el numero) casa azul segundo nivel (La mam&aacute; de Albania) ins 4/09/23 ip22.82 8299136156 (dia 30) router nuevo 15/03/24]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>5c:e9:31:ff:0a:77</mac>
+			<bw_up>8100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#479 Alex Vargas Cespedes Mella 1 Calle 37 Casa 37 8298816260 ins 04/03/23 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>5c:e9:31:ff:0a:97</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#473 Erick Munoz Semillero 2 Calle 06 Casa 73 (Frente a Damian 2do Nivel) 8097059496 ins 12/03/24 ip22.50 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>5c:e9:31:ff:18:2f</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#427 Jimmy Binet Calle 8 casa 1( casa Que est&aacute; al cruzar la calle de banca beco hay una mata de guayaba y queda en el 2do nivel) 8292815069 ins 21/10/23 dia 15]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>60:32:b1:6f:bd:b8</mac>
+			<bw_up>10240</bw_up>
+			<bw_down>9500</bw_down>
+			<descr><![CDATA[#155 Yordan Tobias Pena, Edif. 6 No. 4-4 , 849-8040419, 15/11/2021 ip 36 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>60:32:b1:89:82:59</mac>
+			<bw_up>11000</bw_up>
+			<bw_down>11000</bw_down>
+			<descr><![CDATA[#325 Juan Francisco Camilo Ciriaco calle 10 semillero 2 c16(inseguro) 2do frente a Carlos accesorios ip21.215 ins 1/12/22 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>60:32:b1:89:92:69</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[ #389 Mabel Estrella Torres Calle 37 Edif 47 Apart b1 Mella 1 8296365437 ins 09/05/23 ip22.40 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>60:32:b1:89:94:51</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#379 Erasmo Quezada calle 14 fondo de botella casa 12  8094516023 ip22.24 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>60:32:b1:d9:78:41</mac>
+			<bw_up>7000</bw_up>
+			<bw_down>7000</bw_down>
+			<descr><![CDATA[#248 Adelaida Cabrera Calle 4, c133 segundo nivel (por donde jose) 8299215972 INST 7/6/22 (dia 30) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>68:ff:7b:5a:fb:57</mac>
+			<bw_up>6000</bw_up>
+			<bw_down>9000</bw_down>
+			<descr><![CDATA[#333 Flor Maria Zapata (V) calle 5 c4 san Lorenzo 2 8498674146 ins 6/12/22 ip223 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>68:ff:7b:e9:67:e9</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#290 Mario Gonzalez Inst 10/09/22 ip163 Calle 1, San Lorenzo 2 (Valle bonito) 8295663324 (dia 15) (v)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>84:d8:1b:a2:dd:55</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#431 Santa Gomez San Antonio Calle 27 Casa 32 8296936743 ins 26/10/23 ip22.93 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>8c:88:2b:00:07:4f</mac>
+			<bw_up>3072</bw_up>
+			<bw_down>4500</bw_down>
+			<descr><![CDATA[#406 Juan Danilo Sosa iglesia (Frente a mata de guayaba) calle 4 (local iglesia) c39 San Lorenzo 2 ins 21/06/23 8097140305 ip22.60 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>90:9a:4a:20:f0:85</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#123 Arelis Severino Calle 1, San Lorenzo 2, No. 31 8092600213 (dia 5)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>90:9a:4a:21:b3:4d</mac>
+			<bw_up>5000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#488 Angelina Binet San Antonio Calle 08 Casa 02 8299383653 al lado de jimmy encima del picapollo ins 08/06/24 ip22.178 dia 15]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>90:9a:4a:c1:96:79</mac>
+			<bw_up>4096</bw_up>
+			<bw_down>4096</bw_down>
+			<descr><![CDATA[#27 Carlos Portoreal colmado 8094192986 (dia 20)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>98:da:c4:2c:c5:79</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#520 Clara Perez Calle 04 Casa 88 (al lado de Yoel, detr&aacute;s de INFotep) 8098545342 ins 21/11/24 Calle 4 casa 88 (al lado de Yoel, detr&aacute;s de INFotep) 8098545342 ins 21/11/24]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>98:da:c4:2c:ce:8f</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#524 Alvin Diaz Fondo de Botella Calle 12 (Frente a Wanda entrar por el callejon no hay m&aacute;s datos)8298893733 ins 23/11/24 dia 30 ip22.219]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>9c:a2:f4:7f:46:79</mac>
+			<bw_up>11000</bw_up>
+			<bw_down>11000</bw_down>
+			<descr><![CDATA[#115 Jose Infante Semillero 2, Calle 6, No. 68, 8294687281 ip211 (dia 30) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>9c:a2:f4:bf:f5:6d</mac>
+			<bw_up>10500</bw_up>
+			<bw_down>5000</bw_down>
+			<descr><![CDATA[#70 V&iacute;ctor Manuel Luc&iacute;an Ensanche San Lorenzo 2, Calle 1, Casa 1, 8295376847 ip191 (dia 20)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>9c:a2:f4:bf:f8:87</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>6500</bw_down>
+			<descr><![CDATA[#378 Yoel ozoria calle Semillero 2 Casa 3 8295564400 ins 4/03/23 ip22.20 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>ac:84:c6:8b:08:41</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#375 Cristofher Alexander Martinez San Antonio calle 35 casa 36 8493777649 ip22.18]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>b0:4e:26:62:9d:b1</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#301 Benita Brito Atras del Centro Edif 16 Apt 1-2 Monte Bonito 8098758038 dia]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>b0:4e:26:d4:bd:e3</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>6000</bw_down>
+			<descr><![CDATA[#321 Albania Tejada Ip21.211 calle rosa Sanchez edificio 6 apertura 1-3 Ins 20/11/22 8494503309 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>b0:4e:26:dc:6c:6d</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#327 Berta Seneida Ceballo calle 3 c41 San Lorenzo 2 calle 3 ip21.217 ins 3/12/22 8293011143 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>b0:be:76:b5:10:1b</mac>
+			<bw_up>15500</bw_up>
+			<bw_down>15500</bw_down>
+			<descr><![CDATA[#560 Joedy Rojas Pena Cienfuegos Calle 05 frente al cjc arriba de ala tienda de celulare y al lado de el lavadero 2do nivel 2da puerta 8094472985  dia 30 ins 09/04/25 ip21.209]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>b0:be:76:b5:2b:1f</mac>
+			<bw_up>5200</bw_up>
+			<bw_down>5200</bw_down>
+			<descr><![CDATA[#423 Joan Acevedo De La Nuez Calle 53 Casa 23(dice dique 5323 color blanca con naranja de una planta en frente a una casa que no esta enpanetada y sin pintar do marquesina) ins 509/23 ip22.83 8299172592 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>b0:be:76:b5:2c:77</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#309 Britany Sosa Calle 12 c4 (al lado de la barberia) fonde de la Botella 8297971658  ins 22/10/22 ip21.193 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>b0:be:76:b5:86:a1</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#284 Mariel Contreras Lopez Mella 1 Calle 27 Con 35 Casa #6 (Al lado de alex)  Inst 03/09/22 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>b0:be:76:b5:8a:a3</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#342 Ambiorix Taveras Calle 2 peaton 2 edif 12 apart 1-3 dia 30 8297077774]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>b0:be:76:b5:9b:2b</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#354 Brailin Antonio calle 2 san Lorenzo 2 casa(No sabe exactamente detras del colegio la rosa primer nivel) dia 15 ip20.146 8498534213]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>b0:be:76:b5:ae:f7</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#328 Adanelsa Galba Hernandez san lorenzo 2 calle 3 c53 ins 3/12/22 8093487793 ip21.218 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>b0:be:76:b5:b7:8f</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[#365 Anderson Reyes Satelite calle 1ra (Villa rosa con satelite) Edif Manz. 15 Apto 2-1 ip21.129 ins 3/2/23 8298750301 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>b4:0f:3b:05:fe:f0</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#558 Alenny Miguelina Taveras Pepin Fondo de Botella Calle 13 Apto 2-2 al lado de Katherin Marcelo frente al liceo ins 24/03/25 8495872129 dia 30 ip 20.208]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>bc:60:a7:21:4c:96</mac>
+			<bw_up>20000</bw_up>
+			<bw_down>20000</bw_down>
+			<descr><![CDATA[playstation 4 ch]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>c0:25:2f:00:47:2f</mac>
+			<bw_down>7072</bw_down>
+			<descr><![CDATA[#316 Cancha ip21.204]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:00:ae:b5</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#146 Damiana Minaya Edif 17 Apto 3-2 Monte Bonito 8296137523 inst 2/11/2021 ip3 (dia 5) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:05:6a:a5</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>7000</bw_down>
+			<descr><![CDATA[#208 Hansen Sosa, Edif 35, Apto 4-4 , ip21.62 8099382355 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:05:6d:cf</mac>
+			<bw_up>7000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#507 Juan Martinez San Lorenzo 2 Calle 04 Casa 06 2do (encima de Hensly) 8097767383 dia 30 ins 26/09/24 ip22.203]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>c0:25:2f:05:6f:99</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>7000</bw_down>
+			<descr><![CDATA[#69 Cari Centro De Unas, Calle 1 San Lorenzo casa 33, 8295191585  (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:05:9d:c3</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#215 Deyvis Espinal El Semillero 2,Calle 7, Peat&oacute;n 7, No. 63, Ip21.69 8497501611 Inst. 16/03/22 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:13:eb:f3</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#223 Gladys Ventura Calle 31 Casa 26 San Antonio ip119 8098849958 Inst 02/04/2022 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:13:f5:27</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#194 Estefany Andreina Fernandez Calle 27, c31, San Antonio 8099981030 8493870430 ins 5/2/22 (dia 5)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>c0:25:2f:13:f5:73</mac>
+			<bw_up>3072</bw_up>
+			<bw_down>3072</bw_down>
+			<descr><![CDATA[ #137 Martin Philistin (Hait&iacute;) 8099057930(dia 15) Calle 4 Num San Antonio 10 inst 05/10/21 20.236]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:24:68:69</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#533 Dinora Rodriguez Monte Bonito Edif 13 Apto 1-1 dia 15 ins 09/01/25 8294372780]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:29:00:7b</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#117 Elsa Maria Checo, Monte Bonito Edif 3 Apto 4-4, 8296458187 ip220 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:2b:7f:e3</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#74 Aneury Sanchez Calle 8 Edif 21 4-4 numero 8298083933 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:34:bb:8f</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>7000</bw_down>
+			<descr><![CDATA[#87 Jonny Fern&aacute;ndez Calle 8, Esq. 1, al lado del colmado ip 188, 8299228559 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:34:c2:2d</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>7000</bw_down>
+			<descr><![CDATA[#118 Manuel Sadan El Semillero 2, Calle 6, No. 72, 2do Nivel, 8297304266, ip201 (dia 30) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>c0:25:2f:42:d5:b7</mac>
+			<bw_up>3100</bw_up>
+			<bw_down>3100</bw_down>
+			<descr><![CDATA[#140 Cristobal Mateo Santana valle bonito calle 2 casa 20 ip 22.141 ins 21/02/24 (Cobrar solo 8 dias de uso) 8296849923]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:46:1f:b5</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>7000</bw_down>
+			<descr><![CDATA[#442 Arisleida Luciano Semillero 2 Calle 6 Casa 82 (apart 2-1 blanco Al lado de damian) ins 15.12.23 Ip22.107 dia 15 8295844771 ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:46:2e:4b</mac>
+			<bw_up>3072</bw_up>
+			<bw_down>3072</bw_down>
+			<descr><![CDATA[(SA)Amikelin Haitiano 8295849636 ins 12/04/24 ip22.160 dia 15 calle 2 San loreonzo 2 (Entrando por un callejon al lado de una banca llamada lotedon, Del otro lado queda una zapateria) 1-1]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:4c:4e:5b</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#89 Domingo de Jesus Medina El Hoyo, Calle 31, No. 34, 8096516010, (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>c0:25:2f:4c:69:1f</mac>
+			<bw_up>3500</bw_up>
+			<bw_down>5000</bw_down>
+			<descr><![CDATA[#102 Alexis Almanzar San Antonio, Calle 37, No. 30, 8496508014 ip154 (dia 10) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:55:d0:7b</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#216 Robert Morrobel Batista Calle 35 San Antonio (entrar por banca beco)c28 ip21.77 8493599333 Inst 18/03/202 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:55:d0:8d</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#375 Cristofher Alexander Martinez San Antonio calle 35 casa 36 8493777649 ip22.18 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:57:90:b5</mac>
+			<bw_up>7100</bw_up>
+			<bw_down>7100</bw_down>
+			<descr><![CDATA[#566 Dori Altagracia Laro Monte Bonito Calle 04 Casa 170 ins 02/05/25 8492035388 dia 30 pagara 1000]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:58:71:15</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#521 Maria Garcia San Lorenzo 2 Calle 01 Casa 31 (al lado de Kari unas) dia 30 ip22.216]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:60:75:a9</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#388 Elizabeth Mercado Calle 1 Con 7 frente al Salon Albania Casa 6 San Lorenzo 2 Ip22.39 ins 9/05/23 8494099105 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:60:89:cf</mac>
+			<bw_up>4100</bw_up>
+			<bw_down>8500</bw_down>
+			<descr><![CDATA[#487 Robert Gonzalez Calle 03 Casa 33 2do Nivel (Color verde) San Lorenzo 2 8296469849 ins 01/06/24 dia 30 ip22.177]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:61:84:fb</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#228 Celenia Mancebo Edif 27 Apto 4-4 ip 21.83 8299741873 (dia 20)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:61:8b:9f</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5200</bw_down>
+			<descr><![CDATA[#184 Rafael Antonio Rodr&iacute;guez  calle 4 c133 Monte Bonito 8292762079 ip21.27 Inst 5/1/21(dia 5)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>c0:25:2f:61:93:f7</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>4150</bw_down>
+			<descr><![CDATA[#225 Yunior Espinal De Leon Calle 5, San Lorenzo 2, 2do Nivel al lado de dalquiria 8094597906 Inst 09/03/22 ip21.61 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>c0:25:2f:61:94:27</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#197 Ramon Valenzuela Valle Bonito, Calle 2, NO. 10 8099134775 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:61:96:cb</mac>
+			<bw_up>10500</bw_up>
+			<bw_down>10500</bw_down>
+			<descr><![CDATA[#230 Reyna Margarita Martinez  Calle 18 c15 fondo de la botella Inst 12/04/22 8294047995 ip21.84 (dia 5)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:61:be:0b</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#226 Maximo Perez Av. 30 Caballeros detr&aacute;s De la Iglesia (muebleria cym) 8097806117 Inst ip21.45 (dia 5)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>c0:25:2f:61:be:91</mac>
+			<bw_up>10300</bw_up>
+			<bw_down>10300</bw_down>
+			<descr><![CDATA[#237 Xavier De Jesus Tejada Diaz Edif 17 Apto 4-4 8294242662 Inst 29/04/22 ip21.91 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:61:c6:c1</mac>
+			<bw_up>5150</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#242 Carlos Manuel Tejada Luna Edif 3-4 Apto 35 Inst 12/05/22 8098823030 ip21.94(dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:61:cf:3f</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#47 Elizaura Corniel Pago (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:61:cf:4b</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[#183 Elsa Maria Rodriguez Calle 2, Monte Bonito, 8098162635 ins 5/1/21 ip21.24 (dia 5)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:61:d0:c5</mac>
+			<bw_up>10300</bw_up>
+			<bw_down>10300</bw_down>
+			<descr><![CDATA[#185 Emilio Checo Alto Bonito, Calle 8, (herrer&iacute;a) 8294599009 Inst. 8/1/22 ip60 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:61:e1:7b</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>7000</bw_down>
+			<descr><![CDATA[#189 Elizabeth Parra Edif. 35 Apto 4-3 Alto Bonito 8098833682 ip61 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:61:e1:cf</mac>
+			<bw_up>5200</bw_up>
+			<bw_down>5200</bw_down>
+			<descr><![CDATA[#314 Luis Javier Fern&aacute;ndez calle 6 semillero 2 (No se sabe el numero de casa es en el porton rojo) ins10/11/22 8295921405 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:61:e3:1b</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#170 Alondra Gonzales Calle 4 casa 116 Cienfuegos 8094011029 ins 29/11/21 ip184 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:61:e3:55</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#202 Rosaura Yaqueline Castillo Calle 25, NO.49 Alcalde Pedanio San Antonio(por el parque) ip35 8492845291 Inst 23/02/2022 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>c0:25:2f:61:e3:e1</mac>
+			<bw_up>7154</bw_up>
+			<bw_down>5200</bw_down>
+			<descr><![CDATA[#11 ISAAC JIMENEZ, AVENIDA. 30 CABALLEROS( Boutique ) (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>c0:25:2f:61:e4:45</mac>
+			<bw_up>3072</bw_up>
+			<bw_down>3072</bw_down>
+			<descr><![CDATA[(Leoneldy) Moises Noel(Casa)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:61:e7:9b</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#238 Kevin Almonte Cruz Edif 27 Apto 3-3 (Calle 10 con 2) Monte Bonito Inst 30/04/22 8296333717 ip21.93 (dia 30) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:61:e7:b7</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#438 Rosa Maria Martinez Fondo de Botella Calle 12 Casa 19 (Frente a uno de los lados de la escuela San Francisco de Asis de color crema con sapote de un nivel) dia 30 reinst el 30/11/23 8292627395 ip22.101]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:61:e9:d7</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#432 Nicole Elizabeth Francisco Cabrera Semillero 2 Calle 7 Casa 18 1ra planta (Color blanca con naranja con una marquesina) ip22.95 ins 08/11/23 8298082209 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:62:35:cb</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#304 Yenny Rubiera Calle 33 Casa 17 el Ollo 8299323424 ins 04/10/22 ip21.180 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:62:40:17</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#385 Claudia Roa Zapata Monte Bonito Calle 2 edif 13 Apto 1-1 8296939308&nbsp;ins&nbsp;25/04/23 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:62:44:13</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#300 Haitiano Likendy Mesidor Calle 4 c09 (al lado de Luisa sanchez) 8297310861 ip21.176  (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:62:4e:a1</mac>
+			<bw_up>5110</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#211 Dionicio Jose Munoz Cruz C29 Calle 29 San Antonio ip21.64 8093040749 Inst 12/03/2022 (dia 10)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:62:4e:af</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#305 Albania Maria Polanco 30 Caballeros Frente a ls Metalera Casa 22  ins 10/10/22 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:62:4f:75</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[#358 Mariela Jimenez Calle 8 Casa 79 Semillero 2 8293425365 ip21.187 ins 7/02/23 (dia 30) reinstalada 07/11/23]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>c0:25:2f:6b:e5:b3</mac>
+			<bw_up>3072</bw_up>
+			<bw_down>3072</bw_down>
+			<descr><![CDATA[LEONELDY Moises Noel Ulloa Diaz Calle 10, Edif 2 NO. 72 (Peluqueria Moises) 8293744976 ip21.78ins21/03/22 (pago 25)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>c0:25:2f:87:09:4b</mac>
+			<bw_up>5200</bw_up>
+			<bw_down>5200</bw_down>
+			<descr><![CDATA[#419 Madeline Ramirez Perez (Direccion confusa) La Pina calle 44 edif no se sabe(En el primer nivel hay un colmado un salon y frente hay una gomeria apartamento amarillo 2-2) 8296738872 ins 21/08/23 ip22.78]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:d0:3a:bd</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5200</bw_down>
+			<descr><![CDATA[(SA)Clara J]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:d0:42:33</mac>
+			<bw_up>3072</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#503 Robinson Demostene San Lorenzo 2 Calle 05 Casa Gris ultima habitacion(No se que cada es pero es gris y viven haitianos al lado e la herreria dia 15 8295699577 ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:d0:43:39</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>7000</bw_down>
+			<descr><![CDATA[#312 Olkirys Rosario Gomez Edif 11 Apart 8297911976  (C)  (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:d0:44:85</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#193 Linfi Toribio Calle 05, NO. 14, San Lorenzo 2, (col yolanda) ip 34 ins 2/2/2022 (dia 5)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>c0:25:2f:d0:44:8b</mac>
+			<bw_up>5200</bw_up>
+			<bw_down>5200</bw_down>
+			<descr><![CDATA[#315 Norma Modesta Toribio San Antonio Calle 25 c56 8297811642 ip 21.205 ins 12/11/22 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:d0:44:a1</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#527 Edwin Rafael Vargas Monte Bonito Calle 04 Casa 96 8293488393 dia 30 ins 27 ip22.221]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:d0:44:a5</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#270 Juan Miguel Diaz Marte Calle 1, San Lorenzo 2, Casa (atras de cari) 8297738831 ip21.133 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:d0:44:f5</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#250 Jennifer Paulino Valle Bonito, Calle 2, Apto 13, (Entrar por melma vape) Inst. 10/06/2022 8492175720 ip21.109(dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:d0:45:05</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#257 Juan Jose De Leon, Calle 5, San Lorenzo Edif. al lado de Colmado Yolanda Apto 5-2 ins 23/6/22 ip22.120 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:d0:45:17</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#464 Luz Maria Cruz San Antonio Calle 33 Casa 10 8496076229 ins 20/02/24 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:d0:45:31</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#277 Elena Nunez Gonzalez Calle 02 Casa 21 San Lorenzo 2, 8298606110, ins18/08/22  ip21.143 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:d0:45:53</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#262 Sindy Burgos Valle Bonito, Calle 2, Edif. 16, Apto 3c, (Entrar por la melma vape) ip21.125 8297631423 Inst 7/7/2022 (dia 30) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:d0:45:65</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#265 Jose Miguel Santiago Martinez, San Lorenzo 2, Calle 3, No. 43, ip21.103 8493420521 Inst. 13/07/22  ip21.103 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:d0:45:73</mac>
+			<bw_up>6500</bw_up>
+			<bw_down>6500</bw_down>
+			<descr><![CDATA[#359 Tania Pena Payamps Edif 40 Apto 3-2 8098812374  ins 7/02/23 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:d0:45:77</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[#254 Carolina Peralta, Calle Sabana Iglesia c5, (Taller alex) 8093096064 INST 21/06/22 ip22.116 (dia 20)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:d0:49:2f</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#538 Elizabeth Hernandez Torres Monte Bonito Calle 02 Casa 41 3MB 500 Pesos Mensual Dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:2f:d0:6b:db</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#519 Liliana Diaz Calle 12 Esq 05 Edif 94 Apto1 8294108858 ins 25/08/22 ip21.145 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:67:5d:3c:9f</mac>
+			<bw_up>5000</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#339 Sunilda Rodriguez Pena San Lorenzo 2 calle 13 c56 (Atras de miky) 8293890499 ip21.231 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:67:64:58:5b</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#311 Raul Lora San Antonio 2, Calle 42, Casa 13, 8295619024 Inst 27/10/22 ip22.197 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:67:71:05:f3</mac>
+			<bw_up>3072</bw_up>
+			<bw_down>3072</bw_down>
+			<descr><![CDATA[#60 Yahaira Mej&iacute;a Edif. 13 Apto 2-4 Monte Bonito 8299182999 ip231 (dia 20) ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:67:97:84:c3</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#404 Luis David Morla valle bonito Calle 02 Apto por vema vape 8294481205 ins 20/06/23 ip22.58]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:25:e9:42:ea:ef</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#322 Yovanny Arturo Vinas calle 06 semillero 1 ip21.212 ins 24/11/22 8299047798 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:a5:dd:1c:12:e3</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#472 Robert Luciano Martinez Monte Bonito Calle 16 Edif 36 4-4 ip22.148 8293318797 ins 12/03/24 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c0:c9:e3:1d:e1:e0</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[HENSLEY NEW]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>c8:1f:66:19:d9:74</mac>
+			<bw_up>15120</bw_up>
+			<bw_down>10120</bw_down>
+			<descr><![CDATA[Maquina principal yeyo]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c8:3a:35:9b:9b:e8</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#269 Seneida Meran Contreta Calle 1, San Lorenzo 2, Casa 35, (donde vivia radibelkis) dia 30 8099749060 ip22.37]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c8:3a:35:bb:58:c0</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>4100</bw_down>
+			<descr><![CDATA[#41 Raque Mejia (mama de carlos) (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c8:3a:35:f3:dc:50</mac>
+			<bw_up>3072</bw_up>
+			<bw_down>3072</bw_down>
+			<descr><![CDATA[(LEONELDY)Raquela Rojas Calle 6 semillero 1 casa 91 ins 08/04/25 ip21.208 8292722575 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>c8:a3:62:01:19:1f</mac>
+			<descr><![CDATA[s23-Suriel]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>cc:2d:21:37:0c:90</mac>
+			<bw_up>3072</bw_up>
+			<bw_down>3072</bw_down>
+			<descr><![CDATA[(LEONELDY)Balerio De los Santos calle 6 semillero 1 pensiones puerta 4 segundo nivel 8493148802 ins 08/04/25 ip21.07 pagara 800 tenia su router]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>cc:32:e5:2d:b4:39</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#382 Teresa Minaya San Antonio Calle 33 casa 26 ins 21/04/23 8097143512 ip22.27 dia 15]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>cc:32:e5:2d:bb:a1</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>7000</bw_down>
+			<descr><![CDATA[#426 Fatima Garcia calle 4 c184 monte bonito (Frente al colmado verde col Marsia) 8297090289 ip22.90 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>cc:32:e5:2d:c8:4f</mac>
+			<bw_up>6500</bw_up>
+			<bw_down>6500</bw_down>
+			<descr><![CDATA[#131 Yokaty Hernandez Fondo De La Botella, Calle 15, No. 19,  8296985195 Inst. el 6/09/21 ip237 (dia 25)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>cc:32:e5:2d:c8:b1</mac>
+			<bw_up>5120</bw_up>
+			<bw_down>5120</bw_down>
+			<descr><![CDATA[#330 Yancarlos Martinez Genao calle 31 c35 ins 3/12/22 ip21.220 8492852916 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>cc:32:e5:2d:c8:b7</mac>
+			<bw_up>8000</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#364 Wilfredo Morales Cepeda Edif 1 Apto 2-1 Monte bonito ip21.127 ins 28/02/23 8098777080 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>cc:32:e5:af:ab:f3</mac>
+			<bw_up>5200</bw_up>
+			<bw_down>5200</bw_down>
+			<descr><![CDATA[#2 Kenia Santos, Edif.12, Apto 4-3, (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>d8:07:b6:ad:5f:c7</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#492 Carolina Martinez Morlan Calle 15 Casa 11 8096328486 ip22.182]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>d8:07:b6:ad:60:07</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#399 Ana Carela Calle 35 Casa 4 San Antonio ip22.51 8297234031 ins 30/05/23 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>d8:32:14:e4:0b:c8</mac>
+			<bw_up>10500</bw_up>
+			<bw_down>10500</bw_down>
+			<descr><![CDATA[#38 Pedro Mart&iacute;nez Edif 12, Apto 2-3, (dia 5)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>d8:32:14:e4:14:28</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[Carlos portorreal 2]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>d8:47:32:c5:fb:fb</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#9 Elias Marte Hiraldo Edif 6 Apt 3-3, PAGO (dia 30) (probando velocidad)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>d8:47:32:ea:0a:d9</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>5100</bw_down>
+			<descr><![CDATA[#344 Vanessa Ozoria Castillo Monte Bonito Edif 17 Apto 3-4 8098652644 ins 4/01/22 ip21.236 dia 30]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>block</action>
+			<mac>da:88:c6:e0:f2:36</mac>
+			<bw_up>1000</bw_up>
+			<bw_down>10000</bw_down>
+			<descr><![CDATA[Router desconocido]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>e4:c3:2a:f5:42:1b</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[#336 Yaquelin Baez Portorreal edif 6 apart 1-1 monte bonito ip21.256 8096036124 ins 13/12/22 dia 15]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>e4:c3:2a:f5:b3:fb</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8100</bw_down>
+			<descr><![CDATA[#369 Martin Toribio Calle 5 San Lorenzo 2 apart 1-3 (Al lado de gorge) ip22.11 ins 15/03/23]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>e4:fa:c4:f4:25:d9</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#516 Jorge Luis Zapata San Lorenzo 2 Calle 04 Casa 28 (el colmado) 8492658667 dia 30 ins 18/10/24 ip22.211]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>e4:fa:c4:f4:2c:dd</mac>
+			<bw_up>4126</bw_up>
+			<bw_down>4126</bw_down>
+			<descr><![CDATA[#455 Yesenia Cruz Monte Bonito Edif 06 Apto 3-4 frente a la junta 8296137868 ins 25/01/24 dia 30 ip22.125]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>e4:fa:c4:f4:2d:13</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#565 Pabiely Gonzalez Mejia Valle Bonito Calle 02 Apto (donde vive Eddy Montero) 2-2 8492799219 dia 15 ins28/04/25 ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>e4:fa:c4:f4:63:d5</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[#568 Yanilsa Capellan Matias Mella 1 Calle de Neno Esq 37 Edf 15 Apto 1-6 al lado del colmado antonio dia 30 8494662409 ]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>e4:fa:c4:f4:ae:13</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[#371 Luseli Sanchez Inoa Semillero 2 calle 10 Casa 12 ip22.14 (dia 15)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>e4:fa:c4:f4:ae:d1</mac>
+			<bw_up>5500</bw_up>
+			<bw_down>5500</bw_down>
+			<descr><![CDATA[(SA)cliente encima de jose lavadora]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>e4:fa:c4:f4:b7:9f</mac>
+			<bw_up>11900</bw_up>
+			<bw_down>11900</bw_down>
+			<descr><![CDATA[#526 Yenifer Dajarelis Almonte Monte Bonito Edif 39 Apto 2-3 8297691938 ip22.220]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>e8:65:d4:54:4c:00</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#153 Katherine Paulino, Calle 3, Edif. 8 Apto 4-1 Monte Bonito 8099863407 ins 15/11/21 (dia 30)]]></descr>
+		</passthrumac>
+		<passthrumac>
+			<action>pass</action>
+			<mac>f8:1a:67:c7:e6:97</mac>
+			<bw_up>5100</bw_up>
+			<bw_down>8000</bw_down>
+			<descr><![CDATA[#447 Mario Enrique San Antonio Calle 37 Casa 34 dia 30 ip22.115 (Por donde vive rola) ins 30/12/23 8298692851]]></descr>
+		</passthrumac>
+	</lan>
+</captiveportal>

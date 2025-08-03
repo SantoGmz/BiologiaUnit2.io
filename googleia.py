@@ -5,7 +5,7 @@ import subprocess
 import platform
 import threading
 import time
-import smtp
+
 
 
 
